@@ -27,7 +27,7 @@ const TempApp=() =>{
                 {!city ? (<p className='errorMsg'>no data found</p>):(
                     <div><div className='info'>
                     <h2 className='location'><GrLocation/>{search}</h2>
-                    <h1 className='temp'>{city.temp}</h1>
+                    <h1 className='temp'>{city.temp}&deg;C</h1>
                     <h3 className='tempmin_max'>Min:{city.temp_min}&deg;C | Max : {city.temp_max}&deg;C</h3>
                 </div>
 
